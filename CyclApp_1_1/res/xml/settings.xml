@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/listOptions"
+        android:entryValues="@array/listValues"
+        android:key="listpref"
+        android:summary="Distance &amp; Speed Measument"
+        android:title="Measurement" />
+
+</PreferenceScreen>
